@@ -1,0 +1,294 @@
+!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+   <!--Title and logo-->
+   <title>The Newgrange Experience</title>
+   <link rel="shortcut icon" type="image/jpg" href="Images/Logo.png"/>
+   <link rel="stylesheet" href="style.css">
+ </head>
+ <body>
+   
+   <!--Navbar-->
+   <nav class="navbar">
+ <div>
+  <img class="primary-icon" width="100%" src="Images/Logo.png"> 
+ </div>
+ <div class='text'>
+   <h1>The Newgrange Experience</h1>
+</div>
+
+   <a href="Page-0.html">About</a>
+
+   <a href="Page-1.html">360 Tour</a>
+
+   <a href="Page-2.html">Gallery</a>
+
+   <a href="Page-3.html">Podcast</a>
+
+ </nav>
+
+
+
+ <div class="product">
+  <div class="itembox" data-item="category1">
+    <a class="fancybox" index="1" data-fancybox="category1" data-caption="On this stone which is situated within the inside of Newgrange there are some unusual drawings on it, which some theories have been going around on what it could be, these theories range from: An ear of Wheat, Salmon Bones, a bird feather, or even a fern leaf." href="Images/Fern.jpg">
+      <img src="Images/Fern.jpg" alt="Fern" title="Fern">
+    </a>
+  </div>
+  <div class="itembox" data-item="category2">
+    <a class="fancybox" data-index="1" data-fancybox="category1" data-caption="This is the Basin which is inside Newgrange this is viewed as perhaps maybe being used to hold the cremated ashen remains of the deceased." href="Images/Basin.jpg">
+      <img src="Images/Basin.jpg" alt="Basin" title="Basin">
+    </a>
+  </div>
+  <div class="itembox" data-item="category3">
+    <a class="fancybox" index="1" data-fancybox="category1" data-caption="When the Winter Soltice occurs the sun will shine through the Roofbox and fill the passage with sunlight leading down into the chamber which then brightens up due to the sun." href="Images/Passage.jpg">
+      <img src="Images/Passage.jpg" alt="Passage">
+    </a>
+  </div>
+  <div class="itembox" data-item="category4">
+    <a class="fancybox" index="1" data-fancybox="category1" data-caption="On this stone, this design is known as the Tri-Spiral it's also known as one of the most famous Celtic Megalithic symbols." href="Images/Spiral.jpg">
+      <img src="Images/Spiral.jpg" alt="Tri-Spiral">
+    </a>
+  </div>
+  <div class="itembox" data-item="category5">
+    <a class="fancybox" index="1" data-fancybox="category1" data-caption="On the construction of the roof, those who built it used overlapped layers of large rocks until it was sealed with capstone which was 6 metres above the floor. 5000 years later and the roof is still waterproof." href="Images/Roof.jpg">
+      <img src="Images/Roof.jpg" alt="Roof">
+    </a>
+  </div>
+  <div class="itembox" data-item="category1">
+    <a class="fancybox" index="5" data-fancybox="category1" data-caption="A picture of the Cairn from above" href="Images/CairnFromAbove1.JPG">
+      <img src="Images/CairnFromAbove1.JPG" alt="CairnFromAbove">
+    </a>
+  </div>
+  <div class="itembox" data-item="category2">
+    <a class="fancybox" index="2" data-fancybox="category1" data-caption="A picture of the Cairn from above as well as showing the entrance" href="Images/CairnFromAbove2.JPG">
+      <img src="Images/CairnFromAbove2.JPG" alt="CairnFromAbove2">
+    </a>
+  </div>
+  <div class="itembox" data-item="category3">
+    <a class="fancybox" index="2" data-fancybox="category1" data-caption="Some Standing Stones close to the entrance" href="Images/StandingStones.JPG">
+      <img src="Images/StandingStones.JPG" alt="StandingStones">
+    </a>
+  </div>
+  <div class="itembox" data-item="category4">
+    <a class="fancybox" index="2" data-fancybox="category1" data-caption="Standing Stones Closeup" href="Images/StandingStonesCloseup.JPG">
+      <img src="Images/StandingStonesCloseup.JPG" alt="StandingStonesCloseup">
+    </a>
+  </div>
+  <div class="itembox" data-item="category5">
+    <a class="fancybox" index="2" data-fancybox="category1" data-caption="The Entrance" href="Images/Entrance.JPG">
+      <img src="Images/Entrance.JPG" alt="Entrance">
+    </a>
+  </div>
+  <div class="itembox" data-item="category1">
+    <a class="fancybox" index="3" data-fancybox="category1" data-caption="One of the Standing Stones" href="Images/StandingStone.JPG">
+      <img src="Images/StandingStone.JPG" alt="Standing Stone">
+    </a>
+  </div>
+  <div class="itembox" data-item="category2">
+    <a class="fancybox" index="3" data-fancybox="category1" data-caption="The K1 Entrance Stone" href="Images/Entrance Stone .JPG">
+      <img src="Images/Entrance Stone .JPG" alt="Entrance Stone">
+    </a>
+  </div>
+  <div class="itembox" data-item="category1">
+    <a class="fancybox" index="1" data-fancybox="category1" data-caption="Stone K67" href="Images/K67.JPG">
+      <img src="Images/K67.JPG" alt="K67" title="K67">
+    </a>
+  </div>
+  <div class="itembox" data-item="category2">
+    <a class="fancybox" data-index="1" data-fancybox="category1" data-caption="A picture of the Cairn from behind" href="Images/CairnFromAbove3.JPG">
+      <img src="Images/CairnFromAbove3.JPG" alt="CairnFromAbove3" title="CairnFromAbove3">
+    </a>
+  </div>
+  <div class="itembox" data-item="category3">
+    <a class="fancybox" index="1" data-fancybox="category1" data-caption="A picture of Site Z" href="Images/Site Z.JPG">
+      <img src="Images/Site Z.JPG" alt="Site Z">
+    </a>
+  </div>
+  <div class="itembox" data-item="category4">
+    <a class="fancybox" index="1" data-fancybox="category1" data-caption="Some of the Woodhenge" href="Images/Some of the Woodhenge.JPG">
+      <img src="Images/Some of the Woodhenge.JPG" alt="The Woodhenge">
+    </a>
+  </div>
+  <div class="itembox" data-item="category5">
+    <a class="fancybox" index="1" data-fancybox="category1" data-caption="The old door which was used to cover the entrance" href="Images/Old door to cover entrance.JPG">
+      <img src="Images/Old door to cover entrance.JPG" alt="Old door to cover entrance">
+    </a>
+  </div>
+  <div class="itembox" data-item="category1">
+    <a class="fancybox" index="5" data-fancybox="category1" data-caption="Some of the Standing Stones" href="Images/More Standing Stones.jpg">
+      <img src="Images/More Standing Stones.jpg" alt="StandingStones">
+    </a>
+  </div>
+  <div class="itembox" data-item="category2">
+    <a class="fancybox" index="2" data-fancybox="category1" data-caption="Stone K52" href="Images/K52.jpg">
+      <img src="Images/K52.jpg" alt="K52">
+    </a>
+  </div>
+  <div class="itembox" data-item="category3">
+    <a class="fancybox" index="2" data-fancybox="category1" data-caption="Newgrange From The Ground" href="Images/NewgrangeFromTheGround.JPG">
+      <img src="Images/NewgrangeFromTheGround.JPG" alt="Newgrange">
+    </a>
+  </div>
+  <div class="itembox" data-item="category4">
+    <a class="fancybox" index="2" data-fancybox="category1" data-caption="The sun shines through the roofbox" href="Images/Roofbox.JPG">
+      <img src="Images/Roofbox.JPG" alt="The Roofbox">
+    </a>
+  </div>
+  <div class="itembox" data-item="category5">
+    <a class="fancybox" index="2" data-fancybox="category1" data-caption="A picture of the Cairn from above" href="Images/CairnFromAbove4.JPG">
+      <img src="Images/CairnFromAbove4.JPG" alt="CairnFromAbove4">
+    </a>
+  </div>
+  <div class="itembox" data-item="category1">
+    <a class="fancybox" index="3" data-fancybox="category1" data-caption="Newgrange from a distance" href="Images/Newgrange from a distance.JPG">
+      <img src="Images/Newgrange from a distance.JPG" alt="Newgrange">
+    </a>
+  </div>
+  <div class="itembox" data-item="category2">
+    <a class="fancybox" index="3" data-fancybox="category1" data-caption="More of Woodhenge" href="Images/Woodhenge.JPG">
+      <img src="Images/Woodhenge.JPG" alt="Woodhenge">
+    </a>
+  </div>
+ 
+  <video width="1320" height="640" controls>
+    <source src="Videos/final montage.mp4" type="video/mp4">
+  </video>
+
+</div>
+</section>
+
+<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
+
+</body>
+
+
+
+
+<style>
+  @import url(https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.css);
+/*===== VARIABLES CSS =====*/
+:root {
+  --header-height: 3rem;
+  --font-medium: 500;
+}
+/*===== Colores =====*/
+:root {
+  --first-color: #49a687;
+  --complementary-color: #f99d6e;
+  --white-color: #fafaff;
+  --dark-color: #2a3b47;
+  --text-color: #697477;
+  --white-color-glass: rgba(250, 250, 255, 0.4);
+}
+/*===== Fuente y tipografia =====*/
+:root {
+  --body-font: "Montserrat", sans-serif;
+  --big-font-size: 6.25rem;
+  --h2-font-size: 1.25rem;
+  --normal-font-size: 0.938rem;
+  --small-font-size: 0.813rem;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+section.res__gallery {
+  padding: 20px;
+  width: 100%;
+  display: flex;
+  justify-self: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 40px auto;
+}
+section.res__gallery ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+section.res__gallery ul li {
+  list-style: none;
+  background: var(--first-color);
+  color: var(--white-color);
+  font-size: var(--h2-font-size);
+  padding: 12px 20px;
+  margin: 5px;
+  letter-spacing: 1px;
+  cursor: pointer;
+  -ms-user-select: None;
+  -moz-user-select: None;
+  -webkit-user-select: None;
+  user-select: None;
+}
+section.res__gallery ul li.active {
+  background: var(--complementary-color);
+  color: var(--white-color);
+}
+.product {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  -ms-user-select: None;
+  -moz-user-select: None;
+  -webkit-user-select: None;
+  user-select: None;
+}
+.product .itembox {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  margin: 5px;
+  display: block;
+}
+.product .itembox.hide {
+  display: none;
+}
+.product .itembox img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+a[data-fancybox] img {
+  cursor: zoom-in;
+}
+
+/* div[data-item="category0"] {
+    display: none !important;
+} */
+
+</style>
+ 
+ 
+
+  
+<style>
+    .footer {
+       position: fixed;
+       left: 0;
+       bottom: 0;
+       width: 100%;
+       background-color: rgb(0, 87, 4);
+       color: white;
+       text-align: center;
+    }
+    </style>
+
+
+ 
+
+  </nav>
+</body>
+</html>

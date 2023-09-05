@@ -1,0 +1,219 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+   <!--Title and logo-->
+   <title>The Newgrange Experience</title>
+   <link rel="shortcut icon" type="image/jpg" href="Images/Logo.png"/>
+   <link rel="stylesheet" href="style.css">
+ </head>
+ <body>
+   
+
+  <div class="header">
+    <div>
+      <img class="primary-icon" src="Images/Logo.png"> 
+     </div>
+    <h1>The Newgrange 360 Experience Tour</h1>
+  </div>
+
+   <!--Navbar-->
+   <nav class="navbar">
+     <!--
+ <div>
+  <img class="primary-icon" width="100%" src="Images/Logo.png"> 
+ </div>
+ <div class='text'>
+   <h1>The Newgrange Experience</h1>
+</div>-->
+  
+   <a href="Page-0.html">About</a>
+
+   <a href="Page-1.html">360 Tour</a>
+
+   <a href="Page-2.html">Gallery</a>
+
+   <a href="Page-3.html">Podcast</a>
+
+ </nav>
+
+
+
+ <div class="about-section">
+  <h1 style="font-size: 70px;">Welcome to the Newgrange 360 Experience Tour! </h1>
+
+
+
+  <p style="font-size: 35px">Within this site you can view Newgrange from your own device from the comfort of your own home! This site provides an in depth look at  Newgrange and all of its surrounding areas.
+  We went out to the Newgrange site and took lots of 360 panormaic photos for you to enjoy viewing in the 360 Tour! At each area within the tour such as the K1 Entrance Stone you can read a descriptive text about the stone or you can listen to an audio desciption of the area, along with opening a larger image of the area to view in greater detail.
+  Along with the 360 tour we have a gallery with additional areas that offer both text and audio based descriptions including the interior. Due to excavations within at the time of shooting, we were prohibited access to the interior which means it won't be part of the 360 tour. But don't worry we've kindly been given standard photos of the interior which you can view within our gallery.
+Lastly we have a podcast which offers insight into how the project was done and how it came about. We hope you enjoy the experience as much as we enjoyed creating it!</p>
+  <p></p>
+</div>
+
+
+<!--About Page CSS-->
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  background: linear-gradient(to left, #00a10d, #00a10d);
+}
+
+html {
+  box-sizing: border-box;
+}
+
+h1 {
+margin-bottom:120px;
+text-align: center;
+}
+
+p {
+  text-align: justify;
+}
+
+
+.about-section {
+  padding: 50px;
+  padding-bottom: 120px;
+  text-align: center;
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+}
+
+
+
+.primary-icon {
+  height: 100px;
+ 
+}
+
+.header {
+  padding: 100px;
+  text-align: center;
+  background-image: url("Images/CairnFromAbove1.JPG");
+  color: white;
+  font-size: 30px;
+}
+
+
+.navbar {
+  background-color: rgb(0, 87, 4);
+  color:rgb(255, 255, 255);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 30px;
+  border-color: #00a10d;
+  padding: 20px;
+}
+
+.nav-list {
+  list-style-type: none;
+}
+
+
+.nav-list .list-item {
+display: inline-block;
+}
+
+.navbar a {
+  color: rgb(4, 227, 22);
+  text-decoration: none;
+}
+
+.navbar a:hover {
+color: white;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+</style>
+
+<style>
+    .footer{
+background:rgb(0, 87, 4);
+       padding: 9px;
+       text-align: center;
+       left: 0;
+       bottom: 0;
+       width: 100%;
+       background-color: #005704;
+       color: white;
+       text-align: center;
+}
+
+.footer .row{
+width:100%;
+margin:1% 0%;
+padding:0.6% 0%;
+color:rgb(254, 254, 254);
+font-size:2em;
+}
+
+.footer .row a{
+text-decoration:none;
+color:rgb(255, 255, 255);
+transition:0.5s;
+}
+
+.footer .row a:hover{
+color:#fff;
+}
+
+.footer .row ul{
+width:100%;
+}
+
+.footer .row ul li{
+display:inline-block;
+margin:0px 30px;
+}
+
+.footer .row a i{
+font-size:10em;
+margin:0% 1%;
+}
+
+@media (max-width:720px){
+.footer{
+text-align:left;
+padding:5%;
+}
+.footer .row ul li{
+display:block;
+margin:10px 0px;
+text-align:left;
+}
+.footer .row a i{
+margin:0% 3%;
+}
+}
+    </style>
+
+<div class="footer">
+<div class="row">
+  <ul>
+  <li><a href="Page-0.html">About</a></li>
+  <li><a href="Page-1.html">360 Tour</a></li>
+  <li><a href="Page-2.html">Gallery</a></li>
+  <li><a href="Page-3.html">Podcast</a></li>
+  </ul>
+  </div>
+  
+  <div class="row">
+  Copyright © 2022 All rights reserved || Designed By: Kiefer Smith 
+  </div>
+  </div>
+  </footer>
+  
+
+  </nav>
+</body>
+</html>

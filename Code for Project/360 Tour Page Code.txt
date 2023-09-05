@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://aframe.io/releases/0.7.0/aframe.min.js"></script>
+    <script src="https://unpkg.com/aframe-look-at-component@0.5.1/dist/aframe-look-at-component.min.js"></script>
+    <script src="https://aframe.io/releases/0.7.0/aframe.min.js"></script>
+    
+<!--animation component script-->
+<script src="https://unpkg.com/aframe-animation-component@^4.1.2/dist/aframe-animation-component.min.js"></script>
+    
+<script src="https://unpkg.com/aframe-look-at-component@0.5.1/dist/aframe-look-at-component.min.js"></script>
+    <script>
+      AFRAME.registerComponent('hotspots',{
+        init:function(){
+            this.el.addEventListener('reloadspots',function(evt){
+            
+            //get the entire current spot group and scale it to 0
+            var currspotgroup=document.getElementById(evt.detail.currspots);
+            currspotgroup.setAttribute("scale","0 0 0");
+            
+            //get the entire new spot group and scale it to 1
+            var newspotgroup=document.getElementById(evt.detail.newspots);
+            newspotgroup.setAttribute("scale","1 1 1");
+          });
+        }
+      });
+      AFRAME.registerComponent('spot',{
+        schema:{
+          linkto:{type:"string",default:""},
+          spotgroup:{type:"string",default:""}
+        },
+        init:function(){
+          
+          //add image source of hotspot icon
+          this.el.setAttribute("src","#hotspot");
+          //make the icon look at the camera all the time
+          this.el.setAttribute("look-at","#cam");
+          
+          var data=this.data;
+          
+          this.el.addEventListener('click',function(){
+            //set the skybox source to the new image as per the spot
+            var sky=document.getElementById("skybox");
+            sky.setAttribute("src",data.linkto);
+            
+            var spotcomp=document.getElementById("spots");
+            var currspots=this.parentElement.getAttribute("id");
+            //create event for spots component to change the spots data
+            spotcomp.emit('reloadspots',{newspots:data.spotgroup,currspots:currspots});
+          });
+        }
+      });
+    </script>
+<!--Script for Aframe Plugin ABOVE-->
+
+<!--Title and logo-->
+    <title>The Newgrange Experience</title>
+    <link rel="shortcut icon" type="image/jpg" href="Images/Logo.png"/>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    
+    <!--Navbar-->
+    <nav class="navbar">
+  <div>
+   <img class="primary-icon" width="100%" src="Images/Logo.png"> 
+  </div>
+  <div class='text'>
+    <h1>The Newgrange Experience</h1>
+</div>
+
+    <a href="Page-0.html">About</a>
+
+    <a href="Page-1.html">360 Tour</a>
+
+    <a href="Page-2.html">Gallery</a>
+
+    <a href="Page-3.html">Podcast</a>
+   
+  </nav>
+
+
+
+
+<!--Tour Plugin-->
+<iframe class="responsive-iframe" src="https://app.lapentor.com/sphere/newgrange" frameborder="0" width="100%"  height="1080" scrolling="no" allow="vr,gyroscope,accelerometer" allowfullscreen="true"
+ webkitallowfullscreen="true" mozallowfullscreen="true" oallowfullscreen="true" msallowfullscreen="true"></iframe></div>
+ 
+
+ 
+
+   <!--<style>
+    .footer {
+       position: fixed;
+       padding: 9px;
+       text-align: center;
+       left: 0;
+       bottom: 0;
+       width: 100%;
+       background-color: #005704;
+       color: white;
+       text-align: center;
+    }
+    </style>
+
+
+   <div class="footer">
+    <p>Right Click image and select fullscreen</p>
+  </div>-->
+
+  </body>
+</html>
